@@ -35,6 +35,28 @@ After adding the marketplace, the plugins listed in `.claude/settings.json` will
 
 The project-level `attribution.pr` setting automatically appends the required contributor statement to pull request descriptions created by Claude Code, so the `contributorStatement` CI check passes without manual copy-paste.
 
+## GitHub Copilot Setup
+
+When using GitHub Copilot coding agents, repository-level guidance is provided in `.github/copilot-instructions.md`.
+
+### Recommended setup flow
+
+1. Open the repository in your Copilot-supported environment (for example, GitHub or VS Code with Copilot enabled).
+2. Start a Copilot coding agent session in this repository.
+3. Verify `.github/copilot-instructions.md` is available to the session context before asking for changes.
+4. Prompt with AWS-focused intents (for example, deployment planning, cost estimation, or IaC generation) so the agent can apply the matching plugin skills under `plugins/`.
+5. Validate generated changes with this repository's standard checks (`mise build`) before committing.
+
+日本語で案内する場合の推奨フロー:
+
+1. GitHub や VS Code など、Copilot が有効な環境でリポジトリを開く。
+2. このリポジトリを対象に Copilot コーディングエージェントのセッションを開始する。
+3. 変更依頼の前に `.github/copilot-instructions.md` がセッションに読み込まれていることを確認する。
+4. デプロイ計画・コスト見積もり・IaC 生成など AWS 指向の依頼を日本語で行い、`plugins/` 配下のスキル適用を促す。
+5. コミット前に `mise build` で標準チェックを実行し、生成内容を検証する。
+
+Keep `.github/copilot-instructions.md` aligned with current plugin support and workflows so Copilot sessions follow the same project conventions as Claude Code and Cursor.
+
 ## Working on Your Contribution
 
 | Action                                            | Explanation                                                                                                                                                                                                                                                                                     |
