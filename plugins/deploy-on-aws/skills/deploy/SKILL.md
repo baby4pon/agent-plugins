@@ -1,11 +1,15 @@
 ---
 name: deploy
-description: "Deploy applications to AWS. Triggers on phrases like: deploy to AWS, host on AWS, run this on AWS, AWS architecture, estimate AWS cost, generate infrastructure. Analyzes any codebase and deploys to optimal AWS services."
+description: "Deploy applications to AWS. Triggers on phrases like: deploy to AWS, host on AWS, run this on AWS, AWS architecture, estimate AWS cost, generate infrastructure. Also triggers on Japanese phrases like: AWSにデプロイ, AWSにホスト, AWSで動かす, AWSアーキテクチャ, AWSコスト見積もり, インフラ生成. Analyzes any codebase and deploys to optimal AWS services."
 ---
 
 # Deploy on AWS
 
 Take any application and deploy it to AWS with minimal user decisions.
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 ## Philosophy
 

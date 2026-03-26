@@ -1,6 +1,6 @@
 ---
 name: amazon-location-service
-description: Integrates Amazon Location Service APIs for AWS applications. Use this skill when users want to add maps (interactive MapLibre or static images); geocode addresses to coordinates or reverse geocode coordinates to addresses; calculate routes, travel times, or service areas; find places and businesses through text search, nearby search, or autocomplete suggestions; retrieve detailed place information including hours, contacts, and addresses; monitor geographical boundaries with geofences; or track device locations. Covers authentication, SDK integration, and all Amazon Location Service capabilities.
+description: Integrates Amazon Location Service APIs for AWS applications. Use this skill when users want to add maps (interactive MapLibre or static images); geocode addresses to coordinates or reverse geocode coordinates to addresses; calculate routes, travel times, or service areas; find places and businesses through text search, nearby search, or autocomplete suggestions; retrieve detailed place information including hours, contacts, and addresses; monitor geographical boundaries with geofences; or track device locations. Covers authentication, SDK integration, and all Amazon Location Service capabilities. Also triggers on Japanese phrases like: 地図を追加, ジオコーディング, 住所から座標を取得, ルート計算, 場所検索, ジオフェンス, デバイス追跡, Amazon Location Service, 位置情報アプリ.
 license: MIT-0
 metadata:
   author: aws-geospatial
@@ -10,6 +10,10 @@ metadata:
 ## Overview
 
 Amazon Location Service provides geospatial APIs for maps, geocoding, routing, places search, geofencing, and tracking. Prefer the bundled JavaScript client (@aws/amazon-location-client) for web development and use resourceless API operations to avoid managing AWS resources.
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 ## When to Use This Skill
 

@@ -1,9 +1,13 @@
 ---
 name: gcp-to-aws
-description: "Migrate workloads from Google Cloud Platform to AWS. Triggers on: migrate from GCP, GCP to AWS, move off Google Cloud, migrate Terraform to AWS, migrate Cloud SQL to RDS, migrate GKE to EKS, migrate Cloud Run to Fargate, Google Cloud migration. Runs a 5-phase process: discover GCP resources from Terraform files, clarify migration requirements, design AWS architecture, estimate costs, and plan execution."
+description: "Migrate workloads from Google Cloud Platform to AWS. Triggers on: migrate from GCP, GCP to AWS, move off Google Cloud, migrate Terraform to AWS, migrate Cloud SQL to RDS, migrate GKE to EKS, migrate Cloud Run to Fargate, Google Cloud migration. Runs a 5-phase process: discover GCP resources from Terraform files, clarify migration requirements, design AWS architecture, estimate costs, and plan execution. Also triggers on Japanese phrases like: GCPからAWSに移行, Google CloudからAWSへ, GCP移行計画, GCPインフラ評価, GKEからEKSに移行, Cloud RunからFargateに移行."
 ---
 
 # GCP-to-AWS Migration Skill
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 ## Philosophy
 

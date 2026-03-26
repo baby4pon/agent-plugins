@@ -2,11 +2,16 @@
 name: aws-lambda-durable-functions
 description: >
   Build resilient, long-running, multi-step applications with AWS Lambda durable functions with automatic state persistence, retry logic, and orchestration for long-running executions. Covers the critical replay model, step operations, wait/callback patterns, error handling with saga pattern, testing with LocalDurableTestRunner. Triggers on phrases like: lambda durable functions, workflow orchestration, state machines, retry/checkpoint patterns, long-running stateful Lambda functions, saga pattern, human-in-the-loop callbacks, and reliable serverless applications.
+  Also triggers on Japanese phrases like: Lambda永続関数, ワークフローオーケストレーション, ステートマシン, 長時間実行Lambda, サガパターン, ヒューマンインザループ, チェックポイント.
 ---
 
 # AWS Lambda durable functions
 
 Build resilient multi-step applications and AI workflows that can execute for up to 1 year while maintaining reliable progress despite interruptions.
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 ## Onboarding
 
