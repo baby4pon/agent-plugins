@@ -94,7 +94,13 @@ You can install the **deploy-on-aws** plugin from the [Cursor Marketplace](https
 
 ### GitHub Copilot
 
-When working with GitHub Copilot coding agents on this repository, use the project instructions in [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) and the plugin skills under [`plugins/`](./plugins/) as the source of truth for AWS guidance and workflows.
+Use the following flow when working with GitHub Copilot coding agents in this repository:
+
+1. Open this repository in GitHub, VS Code, or another Copilot-supported editor.
+2. Start a Copilot coding agent session from the repository context.
+3. Confirm the agent can read [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) for project-level guidance.
+4. Ask for an AWS task naturally (for example, "deploy this to AWS" or "design an Aurora DSQL schema"). The agent should use relevant plugin skills from [`plugins/`](./plugins/).
+5. Before applying generated infrastructure or deployment changes, review architecture, security, and cost outputs.
 
 ## amazon-location-service
 

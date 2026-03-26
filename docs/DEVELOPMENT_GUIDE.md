@@ -37,7 +37,17 @@ The project-level `attribution.pr` setting automatically appends the required co
 
 ## GitHub Copilot Setup
 
-When using GitHub Copilot coding agents, repository-level guidance is provided in `.github/copilot-instructions.md`. Keep that file aligned with current plugin support and workflows so Copilot sessions follow the same project conventions as Claude Code and Cursor.
+When using GitHub Copilot coding agents, repository-level guidance is provided in `.github/copilot-instructions.md`.
+
+### Recommended setup flow
+
+1. Open the repository in your Copilot-supported environment (for example, GitHub or VS Code with Copilot enabled).
+2. Start a Copilot coding agent session in this repository.
+3. Verify `.github/copilot-instructions.md` is available to the session context before asking for changes.
+4. Prompt with AWS-focused intents (for example, deployment planning, cost estimation, or IaC generation) so the agent can apply the matching plugin skills under `plugins/`.
+5. Validate generated changes with this repository's standard checks (`mise build`) before committing.
+
+Keep `.github/copilot-instructions.md` aligned with current plugin support and workflows so Copilot sessions follow the same project conventions as Claude Code and Cursor.
 
 ## Working on Your Contribution
 
