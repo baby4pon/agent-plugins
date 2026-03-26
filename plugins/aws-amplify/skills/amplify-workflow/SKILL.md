@@ -1,11 +1,15 @@
 ---
 name: amplify-workflow
-description: Orchestrates AWS Amplify Gen 2 workflows for building full-stack apps with React, Next.js, Vue, Angular, React Native, Flutter, Swift, or Android. Use when user wants to BUILD, CREATE, or DEPLOY Amplify projects, add authentication, data models, storage, GraphQL APIs, Lambda functions, or deploy to sandbox/production. Do NOT invoke for conceptual questions, comparisons, or troubleshooting unrelated to active development.
+description: Orchestrates AWS Amplify Gen 2 workflows for building full-stack apps with React, Next.js, Vue, Angular, React Native, Flutter, Swift, or Android. Use when user wants to BUILD, CREATE, or DEPLOY Amplify projects, add authentication, data models, storage, GraphQL APIs, Lambda functions, or deploy to sandbox/production. Do NOT invoke for conceptual questions, comparisons, or troubleshooting unrelated to active development. Also triggers on Japanese phrases like: Amplifyアプリを作成, Amplifyプロジェクト, 認証を追加, データモデルの作成, Amplifyデプロイ, フルスタックAmplify.
 ---
 
 # Amplify Workflow
 
 Orchestrated workflow for AWS Amplify Gen 2 development.
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 ## Available references
 

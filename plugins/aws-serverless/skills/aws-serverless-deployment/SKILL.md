@@ -1,12 +1,16 @@
 ---
 name: aws-serverless-deployment
-description: "AWS SAM and AWS CDK deployment for serverless applications. Triggers on phrases like: use SAM, SAM template, SAM init, SAM deploy, CDK serverless, CDK Lambda construct, NodejsFunction, PythonFunction, SAM and CDK together, serverless CI/CD pipeline. For general app deployment with service selection, use deploy-on-aws plugin instead."
+description: "AWS SAM and AWS CDK deployment for serverless applications. Triggers on phrases like: use SAM, SAM template, SAM init, SAM deploy, CDK serverless, CDK Lambda construct, NodejsFunction, PythonFunction, SAM and CDK together, serverless CI/CD pipeline. For general app deployment with service selection, use deploy-on-aws plugin instead. Also triggers on Japanese phrases like: SAMテンプレート, SAMデプロイ, CDKサーバーレス, CDK Lambdaコンストラクト, サーバーレスCI/CDパイプライン."
 argument-hint: "[what are you deploying?]"
 ---
 
 # AWS Serverless Deployment
 
 Deploy serverless applications to AWS using SAM or CDK. This skill covers project scaffolding, IaC templates, CDK constructs and patterns, deployment workflows, CI/CD pipelines, and SAM/CDK coexistence.
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 For Lambda runtime behavior, event sources, orchestration, observability, and optimization, see the [aws-lambda skill](../aws-lambda/).
 

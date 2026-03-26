@@ -1,6 +1,6 @@
 ---
 name: dsql
-description: "Build with Aurora DSQL — manage schemas, execute queries, handle migrations, and develop applications with a serverless, distributed SQL database. Covers IAM auth, multi-tenant patterns, MySQL-to-DSQL migration, and DDL operations. Triggers on phrases like: DSQL, Aurora DSQL, create DSQL table, DSQL schema, migrate to DSQL, distributed SQL database, serverless PostgreSQL-compatible database."
+description: "Build with Aurora DSQL — manage schemas, execute queries, handle migrations, and develop applications with a serverless, distributed SQL database. Covers IAM auth, multi-tenant patterns, MySQL-to-DSQL migration, and DDL operations. Triggers on phrases like: DSQL, Aurora DSQL, create DSQL table, DSQL schema, migrate to DSQL, distributed SQL database, serverless PostgreSQL-compatible database. Also triggers on Japanese phrases like: Aurora DSQL, DSQLテーブルを作成, DSQLスキーマ, DSQLに移行, 分散SQLデータベース, サーバーレスPostgreSQL互換データベース."
 license: Apache-2.0
 metadata:
   tags: aws, aurora, dsql, distributed-sql, distributed, distributed-database, database, serverless, serverless-database, postgresql, postgres, sql, schema, migration, multi-tenant, iam-auth, aurora-dsql, mcp
@@ -17,6 +17,10 @@ Aurora DSQL is a serverless, PostgreSQL-compatible distributed SQL database. Thi
 - Migration support and safe schema evolution
 - Multi-tenant isolation patterns
 - IAM-based authentication
+
+## Language
+
+Respond in the same language the user is communicating in.
 
 ---
 
