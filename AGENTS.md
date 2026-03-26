@@ -168,7 +168,7 @@ mise run build         # Full build: lint + fmt:check + security
 
 See `mise.toml` for the full task list and tool versions.
 
-## Plugin commands (Claude)
+## Plugin commands
 
 Project-level plugin settings are in `.claude/settings.json` (`enabledPlugins`).
 Contributors must first add the marketplace before these take effect.
@@ -183,6 +183,8 @@ Contributors must first add the marketplace before these take effect.
 # Test locally
 claude --plugin-dir ./plugins/deploy-on-aws
 ```
+
+For GitHub Copilot coding agents, keep `.github/copilot-instructions.md` up to date; it is the primary project-level instruction source used during Copilot sessions.
 
 ## Git Worktree Workflow
 

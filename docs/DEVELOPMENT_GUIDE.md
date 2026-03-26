@@ -35,6 +35,10 @@ After adding the marketplace, the plugins listed in `.claude/settings.json` will
 
 The project-level `attribution.pr` setting automatically appends the required contributor statement to pull request descriptions created by Claude Code, so the `contributorStatement` CI check passes without manual copy-paste.
 
+## GitHub Copilot Setup
+
+When using GitHub Copilot coding agents, repository-level guidance is provided in `.github/copilot-instructions.md`. Keep that file aligned with current plugin support and workflows so Copilot sessions follow the same project conventions as Claude Code and Cursor.
+
 ## Working on Your Contribution
 
 | Action                                            | Explanation                                                                                                                                                                                                                                                                                     |

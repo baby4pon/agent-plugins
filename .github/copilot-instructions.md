@@ -7,7 +7,7 @@ This repository contains Agent Plugins for AWS that equip AI coding agents with 
 ## Technology Stack
 
 - **Language**: Primarily TypeScript/JavaScript
-- **Framework**: Claude Code plugins
+- **Framework**: Agent plugins (GitHub Copilot, Claude Code, Cursor)
 - **Cloud Platform**: AWS
 - **Infrastructure as Code**: CDK and CloudFormation
 - **Tools**: MCP Servers (awsknowledge, awspricing, aws-iac-mcp)
@@ -41,7 +41,7 @@ This repository contains Agent Plugins for AWS that equip AI coding agents with 
 1. **AWS Best Practices**: Recommend services aligned with AWS Well-Architected Framework
 2. **Cost Awareness**: Always estimate and display costs to users
 3. **User Confirmation**: Never deploy without explicit user confirmation
-4. **Multi-Agent Support**: Currently supports Claude Code; consider extensibility
+4. **Multi-Agent Support**: Supports GitHub Copilot, Claude Code, and Cursor
 5. **Security**: Follow AWS security best practices and principle of least privilege
 6. **Documentation**: Provide clear explanations for architectural recommendations
 
