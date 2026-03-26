@@ -102,6 +102,14 @@ Use the following flow when working with GitHub Copilot coding agents in this re
 4. Ask for an AWS task naturally (for example, "deploy this to AWS" or "design an Aurora DSQL schema"). The agent should use relevant plugin skills from [`plugins/`](./plugins/).
 5. Before applying generated infrastructure or deployment changes, review architecture, security, and cost outputs.
 
+日本語で確認したい場合は、以下の手順で進めてください:
+
+1. GitHub / VS Code など Copilot が使える環境でこのリポジトリを開く。
+2. リポジトリのコンテキストで Copilot のコーディングエージェントセッションを開始する。
+3. セッションから [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) が参照できることを確認する。
+4. 「AWS にデプロイして」「Aurora DSQL のスキーマを設計して」のように自然文で依頼し、[`plugins/`](./plugins/) 配下のスキルを適用させる。
+5. 生成されたインフラ/デプロイ変更を適用する前に、アーキテクチャ・セキュリティ・コスト見積もりを必ず確認する。
+
 ## amazon-location-service
 
 Guides developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.
